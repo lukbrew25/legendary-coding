@@ -739,6 +739,9 @@
 		}
 
 			#main .avatar img {
+				width: 200px; /* Set the desired width */
+				height: 200px; /* Set the desired height */
+				object-fit: cover; /* Ensures the image fits within the dimensions */
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
